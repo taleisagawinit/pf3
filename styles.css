@@ -1,0 +1,148 @@
+html {
+  box-sizing:border-box;
+  scroll-behavior: smooth;
+  font-family: 'Montserrat', sans-serif;
+  
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  /* height: 100%;  */
+  /* overflow: hidden */
+}
+*, *::before, *::after {
+  box-sizing: inherit;
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+body {
+  background-color: rgb(221,151,165);
+  margin: 0;
+  padding: 0;
+  /* height: 100%; overflow: hidden */
+}
+
+div {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 50px;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+div h1 {
+  font-weight: 800;
+  font-size: 96px;
+  text-transform: capitalize;
+  margin: 0;
+  /* padding: 20px; */
+}
+
+div h2 {
+  font-weight: 800;
+  font-size: 80px;
+ 
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+  
+}
+
+div p {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+a {
+  position: absolute;
+  bottom: 50px;
+  width: 250px;
+  border-top-left-radius: 75px;
+  border-top-right-radius: 75px;
+  border-bottom-left-radius: 75px;
+  border-bottom-right-radius: 75px;
+  box-shadow: 0 0 11px rgba(33,33,33,.2); 
+  text-decoration: none;
+}
+
+a h3 {
+  padding: 20px;
+  margin: 0;
+  text-transform: capitalize;
+  text-align: center;
+  font-weight: 600;
+  
+}
+
+/* a .blue {
+  color: #70d7d8;
+}
+
+a .pink {
+  color: #e993a5;
+} */
+
+#home {
+  background-image: url("./home.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#home h1 {
+  font-size: 5em;
+  color: #f8e999;
+  line-height: 1em;
+}
+
+#home > div {
+  margin-bottom: 100px;
+}
+
+#home div:nth-of-type(2) {
+  position: absolute;
+  bottom: 0;
+  width: fit-content;
+  height: fit-content;
+  right: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+#about {
+  background-image: url("./b.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#skills {
+  background-image: url("./a.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#projects {
+  background-image: url("./projects.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+#contact {
+  background-image: url("./contact.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
