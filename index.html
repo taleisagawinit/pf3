@@ -6,6 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+
   <title>Portfolio</title>
   <link href="./styles.css" rel="stylesheet" type="text/css">
 </head>
@@ -13,93 +19,130 @@
     <div class="page" id="home">
       <div class="intro">
         <h1>Hello, <br> I'm Talei <br> Sagawinit</h1>
-        <h3>Web Developer</h3>
+        <h2>Web Developer</h2>
       </div>
       
       <div class="links">
         <div>
-          <i class="fab fa-github-alt"></i>
+          <i class="fab fa-github-alt link"></i>
         </div>
         <div>
-            <i class="fab fa-linkedin-in"></i>
+            <i class="fab fa-linkedin-in link"></i>
         </div>
         <div>
-            <i class="fas fa-paper-plane"></i>
+            <i class="fas fa-paper-plane link"></i>
         </div>
       </div>
 
+      <!-- <a href="#about" class="button animated pulse delay-3s"> -->
       <a href="#about" class="button">
-        Learn More
+          Learn More
       </a>
     </div>
 
     <div class="page" id="about">
       <div class="summary">
-        <div>
+        <div class="aboutMe">
             <h2>About Me</h2>
-            <p>I'm a developer that loves learning, coding and going to tech meetups. After recently graduating from a coding school and completing an IT development internship, I'm currently working on freelance projects for local businesses.</p>
-            <ul>
-              <li>RevUnit Summer 2019 Scholarship Winner</li>
-              <li>LVWWD Competitive Internship Winner</li>
-              <li>Part-time Jedi Knight (Just kidding)</li>
-              <li>ATA World Champ Martial Artist (Not kidding)</li>
-            </ul>
+            <div>
+              <p>I'm a developer that loves learning, coding and going to tech meetups. After recently graduating from a coding school and completing an IT development internship, I'm currently working on freelance projects for local businesses.</p>
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quod nulla sequi sapiente quam, distinctio est facere laudantium soluta aperiam quas iste in deserunt aut cupiditate repellendus maxime sit voluptatum?</p>
+              <ul>
+                <li>
+                  <i class="fas fa-times bullet yellow"></i>
+                  <p>RevUnit Summer 2019 Scholarship Winner</p>
+                </li>
+                <li>
+                  <i class="fas fa-times bullet yellow"></i>
+                  <p>LVWWD Competitive Internship Winner</p>
+                </li>
+                <li>
+                  <i class="fas fa-times bullet yellow"></i>
+                  <p>Part-time Jedi Knight (Just kidding)</p>
+                </li>
+                <li>
+                  <i class="fas fa-times bullet yellow"></i>
+                  <p>ATA World Champ Martial Artist (Not kidding)</p>
+                </li>
+              </ul>
+            </div>
+            
         </div>
 
         <div class="profile"></div>
-      </div>
-      
-      <a href="#skills" class="button">My Skills</a>
+      </div>      
     </div>
 
-    <div id="skills">
-      
+    <div class="page" id="skills">
+      <h2>Skills</h2>
+      <div class="section">
+        <i class="devicon-html5-plain colored skill"></i>
+        <i class="devicon-css3-plain colored skill"></i>
+        <i class="devicon-sass-original colored skill"></i>
+        <i class="devicon-jquery-plain-wordmark colored skill"></i>
+        <i class="devicon-react-original colored skill"></i>
+        <i class="devicon-angularjs-plain colored skill"></i>
+        <i class="devicon-nodejs-plain colored skill"></i>
+        <i class="devicon-express-original colored skill"></i>
+        <i class="devicon-mysql-plain colored skill"></i>
+        <i class="devicon-mongodb-plain colored skill"></i>
+        <i class="devicon-amazonwebservices-plain-wordmark colored skill"></i>
+        <i class="devicon-php-plain colored skill"></i>
+        <i class="devicon-javascript-plain colored skill"></i>
+        <i class="devicon-wordpress-plain colored skill"></i>
+        <i class="devicon-typescript-plain colored skill"></i>
+          <!-- Firebase
+          REST APIs
+          UX + UI Design
+          Agile Methodologies
+          Unit Testing -->
+      </div>
     </div>
 
     <div class="page" id="projects">
-     
+      <h2>Projects</h2>
+      <div>
+        <div class="carousel proj"
+          data-flickity='{ "wrapAround": true }'>
+          <div class="carousel-cell"></div>
+          <div class="carousel-cell"></div>
+          <div class="carousel-cell"></div>
+          <div class="carousel-cell"></div>
+          <div class="carousel-cell"></div>
+        </div>
+      </div>
+      
     </div>
 
     <div class="page" id="contact">
-     
-      <div class="links">
-        <div>
-          <i class="fas fa-arrow-up"></i>
-        </div>
-        <div>
-          <i class="fas fa-arrow-up"></i>
-        </div>
-        <div>
-          <i class="fas fa-arrow-down"></i>
-        </div>
-        <div>
-          <i class="fas fa-arrow-down"></i>
-        </div>
-        <div>
-          <i class="fas fa-arrow-left"></i>
-        </div>
-        <div>
-          <i class="fas fa-arrow-right"></i>
-        </div>
-        <div>
-          <i class="fas fa-arrow-left"></i>
-        </div>
-        <div>
-          <i class="fas fa-arrow-right"></i>
-        </div>
-        <div>
-            <i class="fas fa-paper-plane"></i>
-        </div>
-        <div>
-          <i class="fab fa-github-alt"></i>
-        </div>
-        <div>
-            <i class="fab fa-linkedin-in"></i>
-        </div>
-      </div>
+      <h2>Contact</h2>
+      <form>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
 
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+      </form>
+      <!-- <div class="links">
+        <i class="fas fa-arrow-up"></i>
+        <i class="fas fa-arrow-up"></i>
+        <i class="fas fa-arrow-down"></i>
+        <i class="fas fa-arrow-down"></i>
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-arrow-right"></i>
+        <i class="fas fa-paper-plane"></i>
+        <i class="fab fa-github-alt"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div> -->
+      <a href="#home" class="button">
+        Send
+    </a>
     </div>  
-
-
 </body>
 </html>
