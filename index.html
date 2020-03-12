@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css"> -->
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
   <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
@@ -24,13 +24,13 @@
       
       <div class="links">
         <div>
-          <i class="fab fa-github-alt link"></i>
+          <i class="fab fa-github link"></i>
         </div>
         <div>
             <i class="fab fa-linkedin-in link"></i>
         </div>
         <div>
-            <i class="fas fa-paper-plane link"></i>
+            <i class="fas fa-envelope link"></i>
         </div>
       </div>
 
@@ -45,17 +45,16 @@
         <div class="aboutMe">
             <h2>About Me</h2>
             <div>
-              <p>I'm a developer that loves learning, coding and going to tech meetups. After recently graduating from a coding school and completing an IT development internship, I'm currently working on freelance projects for local businesses.</p>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quod nulla sequi sapiente quam, distinctio est facere laudantium soluta aperiam quas iste in deserunt aut cupiditate repellendus maxime sit voluptatum?</p>
+              <p class="indent">I'm a web developer that loves problem solving, coding and going to tech meetups in my community. My go-to framework is React/React Native, but I'm interested in any and all tech!</p>
+              <p class="indent">After recently graduating from a coding school and completing an IT app development program, I'm currently working on freelance projects for local businesses.</p>
               <ul>
                 <li>
                   <i class="fas fa-times bullet yellow"></i>
-                  <p>RevUnit Summer 2019 Scholarship Winner</p>
+                  <p>RevUnit Scholarship Winner</p>
                 </li>
                 <li>
                   <i class="fas fa-times bullet yellow"></i>
-                  <p>LVWWD Competitive Internship Winner</p>
+                  <p>LVWWD Work Study Program Winner</p>
                 </li>
                 <li>
                   <i class="fas fa-times bullet yellow"></i>
@@ -63,7 +62,7 @@
                 </li>
                 <li>
                   <i class="fas fa-times bullet yellow"></i>
-                  <p>ATA World Champ Martial Artist (Not kidding)</p>
+                  <p>ATA World Champion Martial Artist (Not kidding)</p>
                 </li>
               </ul>
             </div>
@@ -75,41 +74,74 @@
     </div>
 
     <div class="page" id="skills">
-      <h2>Skills</h2>
-      <div class="section">
-        <i class="devicon-html5-plain colored skill"></i>
-        <i class="devicon-css3-plain colored skill"></i>
-        <i class="devicon-sass-original colored skill"></i>
-        <i class="devicon-jquery-plain-wordmark colored skill"></i>
-        <i class="devicon-react-original colored skill"></i>
-        <i class="devicon-angularjs-plain colored skill"></i>
-        <i class="devicon-nodejs-plain colored skill"></i>
-        <i class="devicon-express-original colored skill"></i>
-        <i class="devicon-mysql-plain colored skill"></i>
-        <i class="devicon-mongodb-plain colored skill"></i>
-        <i class="devicon-amazonwebservices-plain-wordmark colored skill"></i>
-        <i class="devicon-php-plain colored skill"></i>
-        <i class="devicon-javascript-plain colored skill"></i>
-        <i class="devicon-wordpress-plain colored skill"></i>
-        <i class="devicon-typescript-plain colored skill"></i>
-          <!-- Firebase
-          REST APIs
-          UX + UI Design
-          Agile Methodologies
-          Unit Testing -->
+      <div class="skillDesc">
+        <div class="section">
+          <i class="devicon-html5-plain colored skill"></i>
+          <i class="devicon-css3-plain colored skill"></i>
+          <i class="devicon-sass-original colored skill"></i>
+          <i class="devicon-jquery-plain-wordmark colored skill"></i>
+          <i class="devicon-react-original colored skill"></i>
+          <i class="devicon-angularjs-plain colored skill"></i>
+          <i class="devicon-nodejs-plain colored skill"></i>
+          <i class="devicon-express-original colored skill"></i>
+          <i class="devicon-mysql-plain colored skill"></i>
+          <i class="devicon-mongodb-plain colored skill"></i>
+          <i class="devicon-amazonwebservices-plain-wordmark colored skill"></i>
+          <i class="devicon-php-plain colored skill"></i>
+          <i class="devicon-javascript-plain colored skill"></i>
+          <i class="devicon-wordpress-plain colored skill"></i>
+          <i class="devicon-typescript-plain colored skill"></i>
+            <!-- Firebase
+            REST APIs
+            UX + UI Design
+            Agile Methodologies
+            Unit Testing -->
+        </div>
+        <div>
+          <h2>Skills</h2>
+          <p class="indent">I specialize on the frontend, using mainly JavaScript frameworks but I'm improving my backend skillset more and more! My goal is to have strong fullstack capabilities and write the most efficient code possible.</p>
+          <p class="indent">In addition to my tech stack, I'm also great at UX/UI design using Adobe products and I'm a big supporter of Agile/Scrum framework.</p>
+        </div>
       </div>
+      
+      
     </div>
 
     <div class="page" id="projects">
-      <h2>Projects</h2>
+      <h2 class="center">Projects</h2>
       <div>
         <div class="carousel proj"
           data-flickity='{ "wrapAround": true }'>
-          <div class="carousel-cell"></div>
-          <div class="carousel-cell"></div>
-          <div class="carousel-cell"></div>
-          <div class="carousel-cell"></div>
-          <div class="carousel-cell"></div>
+          <div class="carousel-cell">
+            <div class="idkClass fc">
+              <div>
+                <h3>Social Mobile App</h3>
+                <p class="center">An MVP of a mobile app for a new business, to encourage people to try and share new activities and adventures. Built in a team of 3 using React Native, mongoDB and AWS. Contributed to UX design and fullstack work.</p>
+                <a class="smButton">View Source</a>
+              </div>
+            </div>
+            
+          </div>
+          <div class="carousel-cell">
+            <div style="width: 100%; height: 100%;" class="idkClass kana">
+                <div>
+                  <h3>Kana: Food Service App</h3>
+                  <p class="center">A food web app to quickly and easily decide what you want to eat. It's like tinder, but for food! Named after my Fijian culture's word for dinnertime. Built in a team of 3 using React/Redux, Node/Express and mySQL. Responsible for the majority of the frontend work and UX.</p>
+                  <a class="smButton">View Source</a>
+                </div>
+            </div>
+            
+          </div>
+          <div class="carousel-cell">
+            <div style="width: 100%; height: 100%;" class="idkClass memory">
+              <div>
+                <h3>Memory: The Office Edition</h3>
+                <p class="center">Your classic memory game built using plain JavaScript, HTML, CSS. Goal is to complete the game in as little lives/Toby's possible. Because the less Toby's the better, of course.</p>
+                <a class="smButton">View Source</a>
+              </div>
+            </div>
+            
+          </div>
         </div>
       </div>
       
@@ -117,32 +149,23 @@
 
     <div class="page" id="contact">
       <h2>Contact</h2>
-      <form>
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name">
+          <p class="center">I'm currently looking for a full-time developer position. If you have any feedback or would like to get in touch please add me on LinkedIn or send me an email. Thank you!</p>
+          <div class="linkSection">
+            <div>
+              <i class="fab fa-github contactLink"></i>
+            </div>
+            <div>
+                <i class="fab fa-linkedin-in contactLink"></i>
+        
+            </div>
+            <div>
+              <i class="fas fa-envelope contactLink"></i>
+            </div>
+          </div>
+      </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-      </form>
-      <!-- <div class="links">
-        <i class="fas fa-arrow-up"></i>
-        <i class="fas fa-arrow-up"></i>
-        <i class="fas fa-arrow-down"></i>
-        <i class="fas fa-arrow-down"></i>
-        <i class="fas fa-arrow-left"></i>
-        <i class="fas fa-arrow-right"></i>
-        <i class="fas fa-arrow-left"></i>
-        <i class="fas fa-arrow-right"></i>
-        <i class="fas fa-paper-plane"></i>
-        <i class="fab fa-github-alt"></i>
-        <i class="fab fa-linkedin-in"></i>
-      </div> -->
-      <a href="#home" class="button">
-        Send
-    </a>
     </div>  
+
+    <a>scroll btn</a>
 </body>
 </html>
